@@ -1,0 +1,59 @@
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+body {
+    background-color: #3c3c3c;
+    color: #bebebe;
+}
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#mealPlanForm {
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #bebebe;
+    border-radius: 8px;
+    color: #0c0c0c;
+}
+
+#mealPlanForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+
+#mealPlanForm input[type="text"], #mealPlanForm input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #5c5c5c;
+    background-color: #848484;
+    color: #0c0c0c;
+}
+
+#mealPlanForm input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #444444;
+    color: #bebebe;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mealPlanForm input[type="submit"]:hover {
+    background-color: #8c8c8c;
+}
